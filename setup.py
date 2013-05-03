@@ -5,7 +5,7 @@ from setuptools import find_packages
 from glob import glob
 setuptools.setup(
   name = 'js.handlebars',
-  version = '1.0.0.rc.3',
+  version = '1.0.10',
   license = 'BSD',
   description = 'Fanstatic package for Handlebars.js',
   long_description = open('README.txt').read(),
