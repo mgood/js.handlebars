@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setuptools.setup(
   name = 'js.handlebars',
-  version = '1.0.rc.1-1',
+  version = '1.3.0',
   license = 'BSD',
   description = 'Fanstatic package for Handlebars.js',
   long_description = open('README.txt').read(),
@@ -19,6 +19,9 @@ setuptools.setup(
   zip_safe = False,
   install_requires=[
     'fanstatic',
+  ],
+  setup_requires=[
+    'setuptools-git',
   ],
   entry_points={
     'fanstatic.libraries': [
